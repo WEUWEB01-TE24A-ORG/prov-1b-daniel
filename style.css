@@ -3,16 +3,23 @@
 body{
     padding:100px; 
     background-image: url('./bilder/bakgrund.jpg');
-    background-size: cover;
-    background-position: center;
+  
+    background-position: 53cm 28cm;
 }
-h1{
+h1{   
+    font-size: 40px;
     color: #38f7ff;
+    border-right: #00a7ad00;
+    border-left: #00a7ad00;
+    border-width: 10px;
     border-bottom: 3px solid #38f7ff;
     border-top: 3px solid #38f7ff;
-    width: 300px; 
+    width: 500px;
+    letter-spacing: 20px;
+    padding: 10px;
+    
+    border-style: solid;
     font-family: "Playfair Display", serif;
-
 }
 h2{
     color: #38f7ff;
@@ -21,13 +28,14 @@ h2{
 p{
     background-color: #00a6ad;
     border-radius: 10px;
-    width: 350px;
+    width: 490px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img{
     padding: 10px;
     background-color: #00a6ad;
     border-radius: 10px;
-    width: 350px;
+    width: 470px;
 }
 table{
 
@@ -51,4 +59,8 @@ td{
     border-radius: 5px;
     border: 3px solid #00a6ad;
     font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+a{
+text-decoration: none;
+color: rgb(155, 0, 0);
 }
